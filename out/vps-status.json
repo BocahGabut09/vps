@@ -1,6 +1,6 @@
 {
-  "active": false,
-  "hostname": "vpsfree-2",
+  "active": true,
+  "hostname": "vpsfree-3",
   "os": "Ubuntu 24.04.5 LTS",
   "kernel": "6.17.0-1022-azure",
   "cpu_threads": 4,
@@ -9,31 +9,26 @@
   "ssh_port": 22,
   "ssh_user": "vps",
   "ssh_listen": "ok",
-  "public_ip": "",
-  "tailscale_ip": "",
-  "tailscale_dns": "",
-  "started_at": "2026-10-19T04:45:18Z",
-  "expires_at": "2026-10-19T10:27:18Z",
+  "public_ip": "52.176.35.115",
+  "tailscale_ip": "100.64.140.28",
+  "tailscale_dns": "runnervm8k3b6.tail11b55e.ts.net",
+  "started_at": "2026-10-19T10:28:02Z",
+  "expires_at": "2026-10-19T16:10:02Z",
   "duration_menit": 342,
-  "run_id": "39199277877",
+  "run_id": "39235173667",
   "run_attempt": "1",
-  "run_number": "2",
-  "run_url": "https://github.com/BocahGabut09/vps/actions/runs/39199277877",
+  "run_number": "3",
+  "run_url": "https://github.com/BocahGabut09/vps/actions/runs/39235173667",
   "mode": "vpsfree",
   "renewal": "ya",
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "offline",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
+      "status": "ok",
+      "ip": "100.64.140.28",
+      "magicdns": "runnervm8k3b6.tail11b55e.ts.net",
+      "hostname": "runnervm8k3b6",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama lalu SSH ke user@ip -p 22."
     }
-  },
-  "handover": {
-    "status": "dispatched",
-    "at": "2026-10-19T10:07:38Z"
-  },
-  "stopped_at": "2026-10-19T10:25:18Z"
+  }
 }

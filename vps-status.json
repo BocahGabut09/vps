@@ -9,14 +9,14 @@
   "ssh_port": 22,
   "ssh_user": "vps",
   "ssh_listen": "ok",
-  "public_ip": "20.55.223.210",
+  "public_ip": "172.208.58.248",
   "tailscale_ip": "100.64.140.28",
-  "tailscale_dns": "runnervm8k3b6.tail11b55e.ts.net",
-  "started_at": "2026-10-28T09:50:56Z",
-  "expires_at": "2026-10-28T15:32:56Z",
+  "tailscale_dns": "runnervm48cm3.tail11b55e.ts.net",
+  "started_at": "2026-11-04T13:55:11Z",
+  "expires_at": "2026-11-04T19:37:11Z",
   "duration_menit": 342,
   "run_id": "40664640894",
-  "run_attempt": "1",
+  "run_attempt": "2",
   "run_number": "39",
   "run_url": "https://github.com/BocahGabut09/vps/actions/runs/40664640894",
   "mode": "vpsfree",
@@ -26,8 +26,8 @@
     "tailscale": {
       "status": "ok",
       "ip": "100.64.140.28",
-      "magicdns": "runnervm8k3b6.tail11b55e.ts.net",
-      "hostname": "runnervm8k3b6",
+      "magicdns": "runnervm48cm3.tail11b55e.ts.net",
+      "hostname": "runnervm48cm3",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama lalu SSH ke user@ip -p 22."
     }
   }
